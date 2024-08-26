@@ -15,9 +15,10 @@
         <module>Soundex</module>
         <module>Levenshtein</module>
         <module>QGram</module>
-        <module>ApacheCommonsText</module>
+        <module>ApacheCommons</module>
         <module>ExtractSearch</module>
         <module>Knuth-Morris-Pratt</module>
+        <module>Lucen1</module>
     </modules>
 
     <properties>

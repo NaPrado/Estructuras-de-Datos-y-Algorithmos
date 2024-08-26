@@ -1,0 +1,1 @@
+prefixDir=/home/nahuel-prado/Escritorio/Estudio/Eda/TestingLucene
