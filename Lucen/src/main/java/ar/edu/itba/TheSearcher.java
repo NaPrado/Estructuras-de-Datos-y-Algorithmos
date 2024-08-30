@@ -36,17 +36,15 @@ public class TheSearcher {
 
             // field of interest
             String fieldName = "content";
-            //String queryStr= "game";
+            String queryStr= "ham";
 
-            //Term myTerm = new Term(fieldName, queryStr);
+            Term myTerm = new Term(fieldName, queryStr);
             //Query query= new TermQuery(myTerm );
             //Query query= new PrefixQuery(myTerm );
-            Query query = new TermRangeQuery(fieldName,
-                    new BytesRef("gaming"),
-                    new BytesRef("gum"),
-                    false,
-                    false);
-
+            //Query query = new TermRangeQuery(fieldName,new BytesRef("gaming"),new BytesRef("gum"),false,             false);
+            //Query query =new PhraseQuery(fieldName,"game","video","review");
+            //Query query = new WildcardQuery(myTerm);
+            Query query = new FuzzyQuery(myTerm);
 
             // run the query
             long startTime = System.currentTimeMillis();

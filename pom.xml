@@ -18,7 +18,7 @@
         <module>ApacheCommons</module>
         <module>ExtractSearch</module>
         <module>Knuth-Morris-Pratt</module>
-        <module>Lucen1</module>
+        <module>Lucen</module>
     </modules>
 
     <properties>
