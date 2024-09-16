@@ -19,6 +19,11 @@
         <module>ExtractSearch</module>
         <module>Knuth-Morris-Pratt</module>
         <module>Lucen</module>
+        <module>ArrayEDA</module>
+        <module>QuickSort</module>
+        <module>ArrayGenEDA</module>
+        <module>Polution</module>
+        <module>Parser</module>
     </modules>
 
     <properties>
